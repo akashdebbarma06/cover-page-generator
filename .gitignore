@@ -1,0 +1,53 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+*.key
+*.cert
+*.pfx
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files and secrets
+.env
+.env*.local
+.env.production
+.env.staging
+*.env
+!.env.example
+!.env.template
+
+# Internal documentation and planning artifacts
+/design.md
+/implementation.md
+/*.pdf
+/docs/internal/
+
+# Supabase local artifacts
+/supabase/.temp/
+/supabase/.branches/
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
